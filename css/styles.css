@@ -24,6 +24,15 @@ ul {
   margin: 0;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
+}
+
 /* Header */
 
 /* Logo */
@@ -85,25 +94,14 @@ ul {
   color: var(--accent-color);
 }
 
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1170px;
-  outline: 2px solid tomato;
-}
-
-/* .container-auth-nav {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1170px;
-  outline: 2px solid purple;
-} */
-
 /* Hero */
 
 .hero {
   background-color: #2f303a;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-bottom: 94px;
 }
 
 .hero-title {
@@ -147,10 +145,15 @@ ul {
 
 /* Section */
 
+.section {
+  margin-bottom: 94px;
+}
+
 .section-title {
   color: var(--title-text-color);
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 0;
+  padding-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -160,8 +163,15 @@ ul {
 
 /* Features */
 
+.feature-list {
+  margin-bottom: 94px;
+}
+
 .feature-list .title {
   color: var(--title-text-color);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 10px;
 
   font-weight: 700;
   font-size: 14px;
@@ -170,6 +180,9 @@ ul {
 }
 
 .feature-list .text {
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -181,8 +194,15 @@ ul {
   background-color: #f5f4fa;
 }
 
+.team-list-img {
+  margin-bottom: 30px;
+}
+
 .team-list .title {
   color: var(--title-text-color);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 10px;
 
   font-weight: 500;
   font-size: 16px;
@@ -191,6 +211,9 @@ ul {
 }
 
 .team-list .subtitle {
+  margin-top: 0;
+  margin-bottom: 0;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
@@ -205,6 +228,7 @@ ul {
 }
 
 .footer .logo {
+  padding-top: 60px;
   color: #fff;
 }
 
@@ -239,15 +263,31 @@ ul {
 
 /* Portfolio */
 
-.portfolio-list .headline {
+.portfolio {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+.portfolio-list {
+  padding-bottom: 34px;
+}
+
+.portfolio-list-img .headline {
   color: var(--title-text-color);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
 
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
 
-.portfolio-list .text {
+.portfolio-list-img .text {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 4px;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
