@@ -59,6 +59,10 @@ ul {
 
 /* Site nav */
 
+.site-nav {
+  display: flex;
+}
+
 .site-nav .link {
   color: var(--title-text-color);
 
@@ -147,6 +151,7 @@ ul {
 
 .section {
   margin-bottom: 94px;
+  display: flex;
 }
 
 .section-title {
@@ -165,6 +170,7 @@ ul {
 
 .feature-list {
   margin-bottom: 94px;
+  display: flex;
 }
 
 .feature-list .title {
@@ -192,6 +198,10 @@ ul {
 
 .section-team {
   background-color: #f5f4fa;
+}
+
+.team-list {
+  display: flex;
 }
 
 .team-list-img {
