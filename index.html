@@ -2,37 +2,33 @@
 <html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студия</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
     <!--Шапка страницы-->
-    <header class="container">
-        <div>
+    <header class="page-header">
+        <div class="container">
             <nav>
-                <a href="/" class="logo">
-                    <span class="logo-accent">Web</span>Studio
-                </a>
+                <a href="/" class="logo"> <span class="logo-accent">Web</span>Studio </a>
                 <ul class="site-nav">
                     <li><a href="./index.html" class="link current">Студия</a></li>
                     <li><a href="./portfolio.html" class="link">Портфолио</a></li>
                     <li><a href="" class="link">Контакты</a></li>
                 </ul>
             </nav>
-        </div>
-        <div>
             <ul class="auth-nav">
                 <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
                 <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
@@ -43,13 +39,16 @@
     <main>
         <!--Герой-->
         <section class="hero">
-            <h1 class="hero-title">Эффективные решения<br> для вашего бизнеса</h1>
+            <h1 class="hero-title">
+                Эффективные решения<br />
+                для вашего бизнеса
+            </h1>
             <button type="button" class="hero-button">Заказать услугу</button>
         </section>
         <!--Наши преимущества-->
-        <div class="container">
-            <section class="section">
-                <h2 style="display: none;" class="section-title">Наши преимущества</h2>
+        <section class="section-feature">
+            <div class="container">
+                <h2 style="display: none" class="section-title">Наши преимущества</h2>
                 <ul class="feature-list">
                     <li>
                         <h3 class="title">Внимание к деталям</h3>
@@ -76,89 +75,71 @@
                         </p>
                     </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
         <!--Чем мы занимаемся-->
-        <div class="container">
-            <section class="section">
+        <section class="section-work">
+            <div class="container">
                 <h2 class="section-title">Чем мы занимаемся</h2>
                 <ul class="list-work">
                     <li>
-                        <img src="./images/box_1.jpg" alt="человек набирает код" width="370" height="294">
+                        <img src="./images/box_1.jpg" alt="человек набирает код" width="370" height="294" />
                     </li>
                     <li>
                         <img src="./images/box_2.jpg" alt="человек делает мобильное приложение" width="370"
-                            height="294">
+                            height="294" />
                     </li>
                     <li>
                         <img src="./images/box_3.jpg" alt="человек выберает цвет дизайна сайта" width="370"
-                            height="294">
+                            height="294" />
                     </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
         <!--Наша команда-->
-        <div class="container">
-            <section class="section-team">
+        <section class="section-team">
+            <div class="container">
                 <h2 class="section-title">Наша команда</h2>
                 <ul class="team-list">
                     <li>
                         <img class="team-list-img" src="./images/product_desiner.jpg" alt="фото участника команды"
-                            width="270">
-                        <p class="title">
-                            Игорь Демьяненко
-                        </p>
-                        <p class="subtitle">
-                            Product Designer
-                        </p>
+                            width="270" />
+                        <p class="title">Игорь Демьяненко</p>
+                        <p class="subtitle">Product Designer</p>
                     </li>
                     <li>
                         <img class="team-list-img" src="./images/frontend_developer.jpg" alt="фото участника команды"
-                            width="270">
-                        <p class="title">
-                            Ольга Репина
-                        </p>
-                        <p class="subtitle">
-                            Frontend Developer
-                        </p>
+                            width="270" />
+                        <p class="title">Ольга Репина</p>
+                        <p class="subtitle">Frontend Developer</p>
                     </li>
                     <li>
                         <img class="team-list-img" src="./images/marketing.jpg" alt="фото участника команды"
-                            width="270">
-                        <p class="title">
-                            Николай Тарасов
-                        </p>
-                        <p class="subtitle">
-                            Marketing
-                        </p>
+                            width="270" />
+                        <p class="title">Николай Тарасов</p>
+                        <p class="subtitle">Marketing</p>
                     </li>
                     <li>
                         <img class="team-list-img" src="./images/img_ui_designer.jpg" alt="фото участника команды"
-                            width="270">
-                        <p class="title">
-                            Михаил Ермаков
-                        </p>
-                        <p class="subtitle">
-                            UI Designer
-                        </p>
+                            width="270" />
+                        <p class="title">Михаил Ермаков</p>
+                        <p class="subtitle">UI Designer</p>
                     </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
     </main>
     <!--Подвал-->
     <footer class="footer">
-        <a href="/" class="logo">
-            <span class="logo-accent">Web</span>Studio
-        </a>
-        <address>
-            <p class="address">
-                г. Киев, пр-т Леси Украинки, 26
-            </p>
-            <a href="mailto:info@example.com" class="link">info@example.com</a><br>
+        <div class="container">
+            <a href="/" class="logo"> <span class="logo-accent">Web</span>Studio </a>
+            <address>
+                <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
+                <a href="mailto:info@example.com" class="link">info@example.com</a><br />
 
-            <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
-        </address>
+                <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
+            </address>
+        </div>
     </footer>
 </body>
 
