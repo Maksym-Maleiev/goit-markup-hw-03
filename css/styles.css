@@ -24,6 +24,32 @@ ul {
   margin: 0;
 }
 
+.page-header {
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.auth-nav .item + .item {
+  margin-left: 50px;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -38,10 +64,13 @@ ul {
 /* Logo */
 
 .logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   color: #000;
   font-family: 'Raleway';
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -59,11 +88,19 @@ ul {
 
 /* Site nav */
 
-.site-nav {
-  display: flex;
+.site-nav .item {
+  margin-right: 50px;
+}
+
+.site-nav .item:last-child {
+  margin-right: 0;
 }
 
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -83,6 +120,8 @@ ul {
 }
 
 .auth-nav .link {
+  display: flex;
+
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -101,6 +140,9 @@ ul {
 /* Hero */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   background-color: #2f303a;
   text-align: center;
 }
