@@ -24,6 +24,17 @@ ul {
   margin: 0;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
 .page-header {
   border-bottom: 1px solid #ececec;
 }
@@ -271,11 +282,8 @@ ul {
   padding-bottom: 94px;
 }
 
-.team-img {
-  margin-bottom: 30px;
-}
-
 .team-content {
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
