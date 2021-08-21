@@ -70,7 +70,7 @@ ul {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
 }
 
 /* Header */
@@ -414,11 +414,19 @@ ul {
   margin-right: 30px;
   margin-bottom: 30px;
 
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+
   /* outline: 1px solid tomato; */
 }
 
 .portfolio-item .img {
-  margin-bottom: 20px;
+  display: block;
+  max-width: 100%;
+}
+
+.portfolio-content {
+  padding: 20px 24px 20px 24px;
 }
 
 .portfolio-item .headline {
