@@ -289,6 +289,10 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-list .item:last-child {
+  margin-right: 0;
+}
+
 .team-list .title {
   color: var(--title-text-color);
   margin-top: 0;
